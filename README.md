@@ -14,11 +14,11 @@
     ```
 
 #### Activate environment
-    |     | cmd |
-    | -------- | ------- |
-    | conda  | `conda activate zpsai_mnist` |
-    | venv on Windows | `mnist_venv\Scripts\activate.bat` |
-    | venv on MacOS | `source mnist_venv/bin/activate` |
+| | cmd |
+| -------- | ------- |
+| conda  | `conda activate zpsai_mnist` |
+| venv on Windows | `mnist_venv\Scripts\activate.bat` |
+| venv on MacOS | `source mnist_venv/bin/activate` |
 
 #### Install required package
     ```bash
