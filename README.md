@@ -25,6 +25,8 @@
     pip install -r requirements.txt
     ```
 
-## Problem
----
-
+## Run
+| Model Type | cmd |
+| -------- | ------- |
+| Linear | `python main.py --model-type "Linear" --save-model` |
+| CNN | `python main.py --model-type "CNN" --save-model` |
