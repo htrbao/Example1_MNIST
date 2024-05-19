@@ -1,6 +1,7 @@
 # Basic MNIST Example
 
 ## Prerequisites and System Requirements
+---
 #### initialize the environment
 - If using `conda`
     ```bash
@@ -23,3 +24,7 @@
 ```bash
 pip install -r requirements.txt
 ```
+
+## Problem
+---
+
