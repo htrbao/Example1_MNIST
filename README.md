@@ -28,9 +28,14 @@ pip install -r requirements.txt
 ## Run
 ---
 ```bash
-python main.py --model-type <Model Type> --batch-size 64 --epochs 16 --lr 1 --save-model
+python main.py --model-type <Model Type> --batch-size <batch_size> --epochs <epochs> --lr <lr> --save-model
 ```
 | Model Type |
 | -------- |
 | Linear |
 | CNN |
+
+Example:
+```bash
+python main.py --model-type <Model Type> --batch-size 64 --epochs 16 --lr 1 --save-model
+```
