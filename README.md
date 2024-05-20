@@ -21,12 +21,16 @@
 | venv on MacOS | `source mnist_venv/bin/activate` |
 
 #### Install required package
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ## Run
-| Model Type | cmd |
-| -------- | ------- |
-| Linear | `python main.py --model-type "Linear" --save-model` |
-| CNN | `python main.py --model-type "CNN" --save-model` |
+---
+```bash
+python main.py --model-type <Model Type> --batch-size 64 --epochs 16 --lr 1 --save-model
+```
+| Model Type |
+| -------- |
+| Linear |
+| CNN |
